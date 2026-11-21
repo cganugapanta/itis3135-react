@@ -16,7 +16,7 @@ function Home() {
 
             <figure>
                 <img
-                    src="/images/intro_dubai.png"
+                    src={`${import.meta.env.BASE_URL}images/intro_dubai.png`}
                     alt="Dubai Mall"
                     width="340"
                 />

@@ -1,0 +1,69 @@
+import { useEffect } from "react";
+
+function About() {
+    useEffect(() => {
+        document.title = "Chelsi Ganugapanta's Calm Gazelle | ITIS3135 | About";
+    }, []);
+
+    return (
+        <main>
+            <h2>About</h2>
+
+            <figure>
+                <img
+                    src="/images/intro_html.png"
+                    alt="At UNC Charlotte"
+                    width="300"
+                />
+                <figcaption>My time at UNC Charlotte</figcaption>
+            </figure>
+
+            <p>
+                This page is built in part to demonstrate work for the
+                Charlotte class ITIS3135 - Front-End Web Application Development
+                for those sections run by Mr. von Briesen. You may find
+                additional information about this course at{" "}
+                <a href="https://divonbriesen.github.io/teaching/itis3135/">
+                    https://divonbriesen.github.io/teaching/itis3135/
+                </a>.
+            </p>
+
+            <p>
+                This course gives students relevant experience in front-end
+                web application development by building multiple websites
+                using a variety of tools and techniques.
+            </p>
+
+            <h3>Tools Used in This Course</h3>
+
+            <ul>
+                <li>VS Code</li>
+                <li>Emmet within VS Code</li>
+                <li>SFTP via FileZilla</li>
+                <li>Git via GitHub Desktop and GitHub.com</li>
+                <li>Various Browser tools</li>
+                <li>The Accumulus Validator</li>
+            </ul>
+
+            <h3>Sites Built Throughout the Semester</h3>
+
+            <ul>
+                <li>A personal home portfolio</li>
+                <li>This course site</li>
+                <li>
+                    A design firm site - representing a fictitious/aspirational
+                    design/consulting firm for the student and named after them
+                </li>
+                <li>
+                    A Crappy page - intended to do all the bad things, so as to
+                    avoid them anywhere else
+                </li>
+                <li>A whimsical product company</li>
+                <li>A student/colleague/peer management tool</li>
+                <li>A client project website</li>
+            </ul>
+        </main>
+    );
+}
+
+export default About;
